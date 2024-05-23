@@ -391,6 +391,7 @@ class TextTrack extends Track {
    *        The cue to add to our internal list
    */
   addCue(originalCue) {
+    console.log("DUPAFAWFWFWFFAW",originalCue);
     let cue = originalCue;
 
     // Testing if the cue is a VTTCue in a way that survives minification
